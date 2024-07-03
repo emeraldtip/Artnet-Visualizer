@@ -45,6 +45,7 @@ void draw()
   {
     //println(data[i] & 0xFF);
     fill(data[i] & 0xFF, data[i+1] & 0xFF, data[i+2] & 0xFF);
+    stroke(data[i] & 0xFF, data[i+1] & 0xFF, data[i+2] & 0xFF);
     square(50+50*(int(i/4)-int(i/64)*16),50+50*int(i/64),50);
   }
   
